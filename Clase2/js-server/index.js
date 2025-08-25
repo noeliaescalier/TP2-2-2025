@@ -42,7 +42,7 @@ const obj2 = {
 
 console.log(typeof(obj1))
 obj1[4] = "teclado inalambrico"
-// tambien podria hacer lo siguiente object "teclado"
+// tambien podria hacer lo siguiente object "teclado" obj1["teclado"] = "teclado inalambrico"
 console.log(obj1)
 
 //Números directos no aceptados, ni al cambiarlo con Num()
@@ -65,3 +65,4 @@ let a, b
 // console.log(a)
 [a, b] = ["esto es A", "esto es B"]
 console.log(a, b)
+console.log("probando")
